@@ -14,8 +14,8 @@
 
 .b-item-img {
   display: inline-block;
-  width: 75px;
-  height: 100px;
+  width: 150rpx;
+  height: 200rpx;
   margin-right: 24rpx;
   vertical-align: middle;
 }
@@ -27,12 +27,12 @@
 
 .b-item-right {
   display: inline-block;
-  width: calc(100% - 87px);
+  width: calc(100% - 80px);
   vertical-align: middle;
 }
 
 .b-item-right .b-item-title {
-  font-size: 1rem;
+  font-size: 38rpx;
   color: #242424;
   text-align: left;
   margin-bottom: 16rpx;
@@ -55,8 +55,7 @@
 
 .b-item-right .b-item-type {
   float: left;
-  display: inline-block;
-  max-width: 40%;
+  display: block;
   margin-left: 8rpx;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -68,7 +67,7 @@
 .b-item-right .icon-read {
   float: left;
   position:relative;
-  display: inline-block;
+  display: block;
   width: 28rpx;
   height: 28rpx;
   left: 0;
