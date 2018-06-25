@@ -1,0 +1,43 @@
+<view class="container">
+  <view class="page-body">
+    <view class="filter-wrap">
+      <view class="filter-item-title">
+        <view class="split"></view>
+        <text class="title">选择阅读喜好</text>
+        <view class="split"></view>
+      </view>
+      <view class="filter-item-wrap">
+         <view class="type" wx:for="{{typeData}}" wx:key="item.id">
+          {{item.name}}
+        </view> 
+      </view> 
+    </view>
+    <view class="page-section page-section-spacing swiper">
+      <swiper
+        :indicator-dots="true" autoplay="true" circular="true"
+        :interval="500" :duration="5000">
+        <block wx:for="{{backgroundImage}}" wx:key="item">
+          <swiper-item>
+            <image class="swiper-item" src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="icon-info-wrap">
+      <view class="icon-block" wx:for="{{cardData}}" wx:key="index">
+        <image class="block-img" src="{{item.icon}}"></image>
+        <text class="block-text">{{item.text}}</text>
+      </view>
+    </view>
+    <view class="book-list-wrap">
+      <text class="book-list-title">精品推荐</text>
+      <view class="b-tags">
+        <text class="b-tags-name" wx:for="{{tags}}" wx:key="{{item}}">{{item}}</text>
+      </view>
+      <book-card
+        id="book-card"
+        bind:onEnterDeatil="_onEnterDeatil"
+        bookList="{{boyList}}" />
+    </view>
+  </view>
+</view>

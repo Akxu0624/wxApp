@@ -1,0 +1,16 @@
+<view class="InfoItemList b-list">
+  <view class="list-item" wx:for="{{bookList}}" wx:key="{{item.id}}" data-book="{{item}}" bindtap="_onEnterDeatil">
+     <view class="b-item-img">
+      <image src="{{item.imgSrc}}" alt="{{item.title}}"></image>
+    </view>
+    <view class="b-item-right">
+      <view class="b-item-title">{{item.title}}</view>
+      <text class="b-item-des">{{item.des}}</text>
+      <view class="b-item-info">
+        <image class="icon-read" src="../../static/img/reader.png"></image>
+        <text class="b-item-type">{{item.type}}</text>
+      </view>
+    </view> 
+  </view> 
+  <view class="b-view-more">更多...</view>
+</view>

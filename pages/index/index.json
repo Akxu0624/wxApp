@@ -1,0 +1,9 @@
+{
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "书城",
+    "backgroundColor": "#ebebeb",
+    "backgroundTextStyle": "light",
+    "usingComponents": {
+        "book-card": "../../components/BookCard/bookCard"
+    }
+}
