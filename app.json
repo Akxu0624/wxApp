@@ -5,7 +5,6 @@
   "window": {
     "navigationBarBackgroundColor": "#e87646",
     "navigationBarTextStyle": "#fff",
-    "navigationBarTitleText": "GridSum",
     "backgroundColor": "#f5f5f9",
     "backgroundTextStyle": "light"
   },
