@@ -18,7 +18,7 @@
 - `MINA` 微信小程序框架 [传送门](https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html/)
 - `WeUI` 一套同微信原生视觉体验一致的基础样式库 [传送门](https://weui.io/)
 
-### 运行截图（一共13个页面，展示部分截图）
+### 运行截图
 <img src="https://mmbiz.qpic.cn/mmbiz_png/TeNk3QFQF1mDbVm96eWibYChE2fQdMZRLV5OOlQ0tBS7aaL6fFokwJtvkBibaVEN1NPzVX29Diceau6Xv2Ydja07Q/640?wx_fmt=png" width="270" height="480" />
 <img src="https://mmbiz.qpic.cn/mmbiz_png/TeNk3QFQF1mDbVm96eWibYChE2fQdMZRLqe0loicWRC6rglulWvjdvib0DjLn8JmzVFic37TnaUUKkq3Luu2BkwbnA/640?wx_fmt=png" width="270" height="480" />
 
